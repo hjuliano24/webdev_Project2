@@ -1,0 +1,30 @@
+/*Five of the same style elemnts for all the pages*/
+
+/*may need to get rid of section and just use div becasue section is used for headers and footers*/
+
+ul.nav {
+  list-style-type: none;
+}
+
+a.button{
+  background-color: white; /* Green */
+  padding: 5px 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  margin-left:1%;
+  float: left;
+  border: 1.5px solid black;
+  border-radius: 13px;
+  color:black;
+}
+
+a.button:hover{
+  background-color: lightblue;
+}
+
+
+/*Five different styles for each pages*/
+/*index*/
+/*trees*/
+/*cat*/
