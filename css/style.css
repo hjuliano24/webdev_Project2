@@ -1,8 +1,5 @@
 /*Five of the same style elemnts for all the pages*/
-
 /*may need to get rid of section and just use div becasue section is used for headers and footers*/
-
-
 /*nav(aka button design)*/
 .header {
   background-color: black;
@@ -14,13 +11,13 @@
 
 a.button {
   background-color: RoyalBlue;
-  padding: 1em 1em;
+  padding: 1% 1%;
   text-align: center;
   font-size: 1em;
   border-radius: 1em 1em 0em 0em;
   color: white;
   float :left;
-  margin-left: 2em;
+  margin-left: 2%;
 }
 
 a.button:hover {
@@ -49,6 +46,7 @@ p, h1, h3, h4, h2, li, h5 {
 /*Five different styles for each pages*/
 /*index*/
 /* bottom and top borders and website font */
+/*border-bottom-style: solid;, list-style-position: inside; - needs 3 more unique styles*/
 #resume {
   font-family: 'Courier New', monospace;
 }
@@ -69,6 +67,7 @@ ul.resume_list {
 /*trees*/
 /*rounded borders for the images */
 /*fixed width*/
+/*font-style: normal;, margin-left: 5em;, border: 0.25em solid black;, needs 2  more unique stylization*/
 #trees {
   font-family: "Playwrite GB S", cursive;
   font-weight: <weight>;
@@ -105,12 +104,77 @@ img.treesIMG {
   margin-left: 5em;
   width: 45%;
   border: 0.25em solid black;
-  border-radius:  1em;
+  border-radius: 1em;
   margin: 1em;
 }   
 
 /*cat*/
 /*with border weight on images*/
-/*fluid layout- flex*/
+/*fluid layout- flex use percentage i guess*/
 /*mobile first maybe */
+/*display: block; height: auto; top: 0; bottom: 0; left: 0; right: 0; --- no need to add more unique styles*/
+#cat {
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
 
+#cat_intro {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 0%;
+  background-color: RoyalBlue;
+}
+
+#cat_intro > h1, #cat_intro > p {
+  color: white;
+}
+
+#cat_content > div {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: RoyalBlue;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+#cat_video {
+  background-color: RoyalBlue;
+}
