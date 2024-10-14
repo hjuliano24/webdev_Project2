@@ -46,11 +46,15 @@ p, h1, h3, h4, h2, li, h5 {
 /*Five different styles for each pages*/
 /*index*/
 /* bottom and top borders and website font */
-/*border-bottom-style: solid;, list-style-position: inside; - needs 3 more unique styles*/
+/*5 unique propertys: border-bottom-style: solid;, list-style-position: inside; text-decoration: overline underline; text-decoration-color: RoyalBlue; text-transform: uppercase;*/
 #resume {
   font-family: 'Courier New', monospace;
 }
 
+.resume_content > h2{
+  text-decoration: overline underline;
+  text-decoration-color: RoyalBlue;
+}
 .resume_content {
    border-bottom-style: solid;
    background-color: lightgrey;
@@ -58,6 +62,9 @@ p, h1, h3, h4, h2, li, h5 {
    padding-right: 5%;
    padding-top: 0.1%;
    margin-bottom: 1%;
+}
+#ressum_content{
+  text-transform: uppercase;
 }
 
 ul.resume_list {
@@ -67,7 +74,7 @@ ul.resume_list {
 /*trees*/
 /*rounded borders for the images */
 /*fixed width*/
-/*font-style: normal;, margin-left: 5em;, border: 0.25em solid black;, needs 2  more unique stylization*/
+/*5 unique propertys: font-style: normal; border: 0.25em solid black; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); filter: brightness(110%); margin-top: 1%;*/
 #trees {
   font-family: "Playwrite GB S", cursive;
   font-weight: <weight>;
@@ -88,6 +95,7 @@ ul.resume_list {
 .trees {
   margin: auto;
   border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 92%;
   background-color: #8ccc89;
   padding-left: 5%;
@@ -101,6 +109,7 @@ ul.resume_list {
 }
 
 img.treesIMG {
+  filter: brightness(110%);
   margin-left: 5em;
   width: 45%;
   border: 0.25em solid black;
@@ -112,7 +121,7 @@ img.treesIMG {
 /*with border weight on images*/
 /*fluid layout- flex use percentage i guess*/
 /*mobile first maybe */
-/*display: block; height: auto; top: 0; bottom: 0; left: 0; right: 0; --- no need to add more unique styles*/
+/*5 unique propertys: display: block; height: auto; top: 0; bottom: 0; left: 0; right: 0;*/
 #cat {
   font-family: Garamond, serif;
   font-weight: bold;
@@ -174,6 +183,7 @@ img.treesIMG {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
 
 #cat_video {
   background-color: RoyalBlue;
