@@ -4,57 +4,46 @@
 
 
 /*nav(aka button design)*/
+.header {
+  background-color: black;
+}
+
 .nav {
   list-style-type: none;
 }
 
-a.button{
+a.button {
   background-color: RoyalBlue;
-  padding: 10px 10px;
+  padding: 1em 1em;
   text-align: center;
   font-size: 1em;
-  margin-left: 5%;
-  margin-right:5%;
-  border-radius: 25px;
-  color:white;
-  float:left;
+  border-radius: 1em 1em 0em 0em;
+  color: white;
+  float :left;
+  margin-left: 2em;
 }
 
-a.button:hover{
+a.button:hover {
   background-color: darkblue;
 }
 
-/*wrappers*/
-.header{
-  float:center;
+.header {
   align-content: center;
-  max-width: 100%;
+}
+
+p, h1, h3, h4, h2, li, h5 {
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
 }
-
-.contentWrapper{
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;
-}
-
-.footer{
-  float:center;
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-p, h1, h3, h4, h2, li, h5{
-  text-align:center;
-}
-
-img{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.footer > p {
+  color: white;
 }
 
 /*Five different styles for each pages*/
@@ -70,19 +59,58 @@ img{
    padding-left: 5%;
    padding-right: 5%;
    padding-top: 0.1%;
-   padding-left: 2%;
    margin-bottom: 1%;
 }
 
-ul.resume_list{
+ul.resume_list {
   list-style-position: inside;
 }
 
 /*trees*/
-/*rouded borders for the images */
+/*rounded borders for the images */
 /*fixed width*/
+#trees {
+  font-family: "Playwrite GB S", cursive;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
+#trees_content {
+  margin-left: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+  background-color: lightgrey;
+  position: center;
+  border-radius: 1em;
+  width: 70%  ;
+}
+
+.trees {
+  margin: auto;
+  border-radius: 1em;
+  width: 92%;
+  background-color: #8ccc89;
+  padding-left: 5%;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  margin: 1em;
+}
+
+.h3_trees {
+ padding: 1%;
+}
+
+img.treesIMG {
+  margin-left: 5em;
+  width: 45%;
+  border: 0.25em solid black;
+  border-radius:  1em;
+  margin: 1em;
+}   
 
 /*cat*/
 /*with border weight on images*/
-/*fluid layout*/
+/*fluid layout- flex*/
+/*mobile first maybe */
+
