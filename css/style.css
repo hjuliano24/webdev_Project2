@@ -82,39 +82,36 @@ ul.resume_list {
 }
 
 #trees_content {
-  margin-left: 15%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  padding: 1%;
+  margin-left: 125px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
   background-color: lightgrey;
-  position: center;
-  border-radius: 1em;
-  width: 70%  ;
+  border-radius: 25px;
+  width: 1000px  ;
 }
 
 .trees {
-  margin: auto;
-  border-radius: 1em;
+  border-radius: 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 92%;
+  width: 900px;
   background-color: #8ccc89;
-  padding-left: 5%;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-  margin: 1em;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 25px;
 }
 
 .h3_trees {
- padding: 1%;
+ padding: 1px;
 }
 
 img.treesIMG {
   filter: brightness(110%);
-  margin-left: 5em;
-  width: 45%;
-  border: 0.25em solid black;
-  border-radius: 1em;
-  margin: 1em;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin: 1px;
 }   
 
 /*cat*/
