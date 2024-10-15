@@ -77,7 +77,6 @@ ul.resume_list {
 /*5 unique propertys: font-style: normal; border: 0.25em solid black; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); filter: brightness(110%); margin-top: 1%;*/
 #trees {
   font-family: "Playwrite GB S", cursive;
-  font-weight: <weight>;
   font-style: normal;
 }
 
