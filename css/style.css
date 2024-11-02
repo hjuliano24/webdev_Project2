@@ -39,6 +39,7 @@ p, h1, h3, h4, h2, li, h5 {
   margin-left: auto;
   margin-right: auto;
 }
+
 .footer > p {
   color: white;
 }
@@ -48,13 +49,14 @@ p, h1, h3, h4, h2, li, h5 {
 /* bottom and top borders and website font */
 /*5 unique propertys: border-bottom-style: solid;, list-style-position: inside; text-decoration: overline underline; text-decoration-color: RoyalBlue; text-transform: uppercase;*/
 #resume {
-  font-family: 'Courier New', monospace;
-}
+  font-style: oblique;
+} 
 
 .resume_content > h2{
   text-decoration: overline underline;
   text-decoration-color: RoyalBlue;
 }
+
 .resume_content {
    border-bottom-style: solid;
    background-color: lightgrey;
@@ -63,8 +65,9 @@ p, h1, h3, h4, h2, li, h5 {
    padding-top: 0.1%;
    margin-bottom: 1%;
 }
+
 #ressum_content{
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 ul.resume_list {
@@ -85,7 +88,7 @@ ul.resume_list {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 10px;
-  background-color: lightgrey;
+  background-color: white;
   border-radius: 25px;
   width: 1000px  ;
 }
@@ -94,7 +97,7 @@ ul.resume_list {
   border-radius: 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 900px;
-  background-color: #8ccc89;
+  background-color: #004953;
   padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -111,7 +114,12 @@ img.treesIMG {
   border: 5px solid black;
   border-radius: 25px;
   margin: 1px;
+  margin-left: 29%;
 }   
+
+#trees{
+  background-color: RoyalBlue;
+}
 
 /*cat*/
 /*with border weight on images*/
@@ -119,8 +127,7 @@ img.treesIMG {
 /*mobile first maybe */
 /*5 unique propertys: display: block; height: auto; top: 0; bottom: 0; left: 0; right: 0;*/
 #cat {
-  font-family: Garamond, serif;
-  font-weight: bold;
+  font-style: italic;
 }
 
 #cat_intro {
@@ -139,6 +146,11 @@ img.treesIMG {
   padding-right: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+.container > img {
+   margin-left: 40%;
 }
 
 .container {
@@ -146,20 +158,14 @@ img.treesIMG {
   width: 50%;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay {
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 1%;
+  left: 42.7%;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 57%;
   opacity: 0;
   transition: .5s ease;
   background-color: RoyalBlue;
@@ -182,5 +188,6 @@ img.treesIMG {
 }
 
 #cat_video {
+  margin-top: 2%;
   background-color: RoyalBlue;
 }
